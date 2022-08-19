@@ -63,7 +63,7 @@ public class DetailsActivity extends AppCompatActivity {
             binding.artistText.setText("");
             binding.yearText.setText("");
             binding.button.setVisibility(View.VISIBLE);
-            binding.imageView.setImageResource(R.mipmap.select_image);
+            binding.imageView.setImageResource(R.mipmap.select_image_foreground);
         }else{
             int artId = intent.getIntExtra("artId",1);
             binding.button.setVisibility(View.INVISIBLE);
